@@ -13,17 +13,14 @@ void output(int arr[], int n){
    puts("");
 }
 void end_negative_number_after_multi(int arr[], int n){
-   int p=1,k;
+   int p=1;
    for(int i=n-1; i>-1; i--){
         if(arr[i]>=0){
             p*=arr[i];
-            k=i;
+            printf("%d ",arr[i]);
         }else{
             break;
         }
-   }
-   for(int i=k; i<n; i++){
-       printf("%d ",arr[i]);
    }
    printf("\np=%d\n",p);
 
