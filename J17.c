@@ -19,6 +19,8 @@ void end_negative_number_after_multi(int arr[], int n){
             p*=arr[i];
             printf("%d ",arr[i]);
         }else{
+            if(arr[n-1]<0)
+                p=0;
             break;
         }
    }
