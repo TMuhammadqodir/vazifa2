@@ -28,7 +28,7 @@ void end_negative_number_after_multi(int arr[], int n){
 int main(){
  srand(time(0));
  int n;
- printf("array o'lchami:");5
+ printf("array o'lchami:");
  scanf("%d",&n);
  int a[n];
  input(a,n);
